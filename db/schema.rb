@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170823194709) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -19,7 +22,7 @@ ActiveRecord::Schema.define(version: 20170823194709) do
     t.datetime "updated_at", null: false
     t.string "slug"
     t.integer "status", default: 0
-    t.integer "topic_id"
+    t.bigint "topic_id"
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
     t.index ["topic_id"], name: "index_blogs_on_topic_id"
   end
@@ -56,7 +59,7 @@ ActiveRecord::Schema.define(version: 20170823194709) do
 
   create_table "technologies", force: :cascade do |t|
     t.string "name"
-    t.integer "portfolio_id"
+    t.bigint "portfolio_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["portfolio_id"], name: "index_technologies_on_portfolio_id"
@@ -68,4 +71,6 @@ ActiveRecord::Schema.define(version: 20170823194709) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "blogs", "topics"
+  add_foreign_key "technologies", "portfolios"
 end
