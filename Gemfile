@@ -58,3 +58,5 @@ gem 'devise', '~> 4.3'
 gem 'jquery-rails'
 
 gem 'bootstrap', '~> 4.0.0'
+
+gem 'jla_view_tool', '~> 0.1.0'

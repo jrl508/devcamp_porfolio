@@ -16,4 +16,9 @@ module ApplicationHelper
     		
     	end
 	end
+
+  def copyright_generator
+        JlaViewTool::Renderer.copyright 'Jean Lafontant', 'All rights reserved'
+  end
+
 end
