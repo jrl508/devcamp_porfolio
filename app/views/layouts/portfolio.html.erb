@@ -16,12 +16,14 @@
 
 
 
-  	   <%= login_helper %>
+  	<%= login_helper %>
+
+    <%= render "shared/nav", location: 'top' %>
+
 
     <%= yield %>
 
 
-    <%= render "shared/nav", location: 'top' %>
 
     <%= source_helper %>
 
