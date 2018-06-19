@@ -1,4 +1,5 @@
 class PortfolioUploader < CarrierWave::Uploader::Base
+  include CarrierWave::MiniMagick
 
   storage :aws
 
@@ -10,5 +11,11 @@ class PortfolioUploader < CarrierWave::Uploader::Base
     %w(jpg jpeg gif png)
   end
 
+
+  version :thumb do
+    process :resize_to_fill => [300,300]
+  end
+
+ 
 
 end
