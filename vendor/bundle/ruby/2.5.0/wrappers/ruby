@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.5.0/environment" ]]
+then
+  source "/home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.5.0/environment"
+  exec ruby "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.5.0/environment'" >&2
+  exit 1
+fi
