@@ -6,6 +6,21 @@
         <div class="row">
             <div class="col-md-4">
                 <%= image_tag "merry-xmas.jpg", width:250, alt:"profile_image" %>
+            
+                <div class="skills">
+                    <% @skills.each do|skill|%>
+                    <h5><%= skill.title %></h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" 
+                            aria-valuenow="<%=skill.percent_utilized%>" 
+                            aria-valuemax="100"
+                            style="width:<%=skill.percent_utilized%>%">
+                            </div>
+                        </div>
+
+                    <% end %>
+                </div>
             </div>
 
             <div class="col-md-8">
