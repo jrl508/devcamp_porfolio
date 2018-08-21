@@ -4,6 +4,10 @@
 
 /* stylelint-disable selector-list-comma-newline-after */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
@@ -18,9 +22,6 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-}
 
 .display-4 {
   font-size: 2.5rem;
@@ -166,4 +167,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
   background-color: whitesmoke;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,{
+  font-family: 'Merriweather', serif;
 }
