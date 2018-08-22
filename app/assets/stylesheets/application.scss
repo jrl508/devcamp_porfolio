@@ -30,6 +30,8 @@ a:hover {
 
 html,
 body {
+
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
 }
 
@@ -50,48 +52,6 @@ body {
   max-width: 55rem;
 }
 
-
-/*
- * Header
- */
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
 
 
 /*
@@ -139,6 +99,8 @@ body {
   text-align: center;
 }
 
+
+
 .app-nav span {
   margin-right: 15px;
   margin-left: 15px;
@@ -175,3 +137,32 @@ body {
 .tech-news > .card {
       padding: 30px;
       }
+
+.app-card-container {
+
+  color: #333;
+}
+
+.app-card-container > .card{
+  background-color: rgba(252, 157, 122, 0.95);
+  padding: 30px;
+}
+
+.card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skills{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,{
+  font-family: 'Merriweather', serif;
+}

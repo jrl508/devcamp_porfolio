@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+
+
     <title><%= @page_title %></title>
 
   </head>
@@ -14,6 +17,7 @@
 
     <meta name="keywords" content= "<%= @seo_keywords %>" />
 
+    <%= favicon_link_tag 'favicons/favicon.ico' %>
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -21,43 +25,38 @@
   <body>
 
 
+    <%= render "shared/blog_nav" %>
 
-<!-- start of header -->
-    <div class="container">
-      
-      <%= render "shared/blog_masthead" %> 
+    <br>
 
-      <%= render "shared/blog_nav" %>
+    <div class="container">  
 
       <%= render "shared/blog_feature_banner" %>
 
-      <%= link_to 'Add New Entry', new_blog_path if logged_in?(:site_admin)%>
+      <% if logged_in?(:site_admin) %>
+        <%= link_to new_blog_path do %>
+          <i class="fa fa-plus-circle"></i> New entry
+        <% end %>
+        /
+      <% end %>
+      <%= link_to "Topics", topics_path %>
 
     </div>
 
     <br>
     <br>
 
-
-<!-- row and container begin -->
- <main role="main" class="container">
+    <main role="main" class="container">
       <div class="row">
-<!-- row and container begin -->
-    <%= yield %>
+        <%= yield %>
 
-    <!-- start of sidebar -->
-    <%= render 'shared/blog_sidebar' %>
-    <!-- end of sidebar -->
-<!-- end of row and container -->
-    </div>
-  </main>
-  <!-- end of row and container -->
-  
+        <%= render 'shared/blog_sidebar' %>
+      </div>
+    </main>
+    
     <%= render 'shared/blog_footer' %>
 
     <%= alerts %>
-
-    <%= source_helper %>
 
   </body>
 </html>
