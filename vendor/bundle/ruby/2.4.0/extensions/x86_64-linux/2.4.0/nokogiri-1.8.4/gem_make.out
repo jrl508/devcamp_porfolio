@@ -1,5 +1,5 @@
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.8.4/ext/nokogiri
-/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180810-18497-91jfzf.rb extconf.rb
+/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180825-7324-8xr72t.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.3.0
@@ -118,4 +118,4 @@ rm -rf /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.8.4/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20180810-18497-bkpm0n/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20180825-7324-qjujyq/nokogiri

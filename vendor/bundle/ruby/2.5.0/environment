@@ -1,3 +1,0 @@
-export PATH="/home/jrl508/.rvm/gems/ruby-2.5.1/bin:/home/jrl508/.rvm/gems/ruby-2.5.1@global/bin:$PATH"
-export GEM_PATH="/home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.5.0"
-export GEM_HOME="/home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.5.0"

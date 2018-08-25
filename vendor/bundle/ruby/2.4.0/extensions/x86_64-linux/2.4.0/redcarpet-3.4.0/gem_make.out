@@ -1,5 +1,5 @@
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet
-/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180810-18497-1wgxuhk.rb extconf.rb
+/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180825-7324-1qjzwk0.rb extconf.rb
 creating Makefile
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet
@@ -103,4 +103,4 @@ linking shared-object redcarpet.so
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20180810-18497-zy1ff7
+/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20180825-7324-1toqtt9

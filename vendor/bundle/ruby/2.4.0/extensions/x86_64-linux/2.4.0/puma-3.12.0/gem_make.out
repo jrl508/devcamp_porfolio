@@ -1,5 +1,5 @@
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/ext/puma_http11
-/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180810-18497-uqqpmg.rb extconf.rb
+/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180825-7324-1ntyip1.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -53,4 +53,4 @@ linking shared-object puma/puma_http11.so
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/puma-3.12.0/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20180810-18497-n4dc0s/puma
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20180825-7324-1333pm/puma

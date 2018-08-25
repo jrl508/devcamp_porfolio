@@ -1,5 +1,5 @@
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
-/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180810-18497-d89ow2.rb extconf.rb
+/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180825-7324-18x7f0z.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -19,4 +19,4 @@ linking shared-object unf_ext.so
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20180810-18497-p9gcjn
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20180825-7324-1u20zb4

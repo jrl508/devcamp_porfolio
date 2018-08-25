@@ -1,5 +1,5 @@
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180810-18497-1ozmpe1.rb extconf.rb
+/home/jrl508/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20180825-7324-c0inug.rb extconf.rb
 creating Makefile
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -48,4 +48,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/jrl508/DevCamp/Portfolio/devcamp_porfolio/vendor/bundle/ruby/2.4.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20180810-18497-1rawdp1
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20180825-7324-1x66484
