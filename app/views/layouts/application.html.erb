@@ -20,7 +20,14 @@
 
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
-      <div id="background"></div>
+      <%= video_tag(
+        'CloudySkyDuringSunset.mp4',
+        id: 'background',
+        autoplay: true,
+        loop: true,
+        muted: true,
+        poster: 'sunset.png'
+      ) %>
 
       <%= render "shared/application_nav"%>
 

@@ -13,6 +13,7 @@ a:hover {
   color: #fff;
 }
 
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -101,23 +102,16 @@ body {
 
 
 
-.app-nav span {
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
 #background {
   position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: 100%;
   height: auto;
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('OP-EC.gif') no-repeat;
   background-size: cover; 
 }
 
@@ -165,4 +159,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6,{
   font-family: 'Merriweather', serif;
+}
+
+
+.nav-link.active {
+  font-weight: 700;
 }
