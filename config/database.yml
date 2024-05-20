@@ -6,7 +6,7 @@ development:
   pool: 5
   timeout: 5000
   username: postgres
-  password: Watchtower1
+  password: password
 
 test:
   adapter: postgresql
@@ -16,7 +16,7 @@ test:
   pool: 5
   timeout: 5000
   username: postgres
-  password: Watchtower1
+  password: password
 
 production:
   adapter: postgresql
@@ -26,4 +26,4 @@ production:
   pool: 5
   timeout: 5000
   username: postgres
-  password: Watchtower1
+  password: password
